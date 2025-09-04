@@ -1,262 +1,319 @@
 {
-  "icon" : "https:\/\/raw.githubusercontent.com\/wwwengshare\/ShareFiles\/main\/BoxJs\/Pic\/wwweng.png",
   "apps" : [
     {
+      "repo" : "",
       "keys" : [
         "sliverkiss_surge_retry",
         "@sliverkiss.record"
       ],
-      "settings" : [
-        {
-          "name" : "ckName",
-          "id" : "sliverkiss_surge_retry",
-          "val" : "",
-          "type" : "text",
-          "autoGrow" : true,
-          "desc" : "填入需要运行重放模块的ckName"
-        }
-      ],
-      "author" : "@Sliverkiss",
       "icons" : [
         "https:\/\/raw.githubusercontent.com\/githubdulong\/Script\/master\/Images\/Surge_logo.png",
         "https:\/\/raw.githubusercontent.com\/githubdulong\/Script\/master\/Images\/Surge_logo.png"
       ],
-      "repo" : "",
+      "settings" : [
+        {
+          "autoGrow" : true,
+          "desc" : "填入需要运行重放模块的ckName",
+          "name" : "ckName",
+          "id" : "sliverkiss_surge_retry",
+          "type" : "text",
+          "val" : ""
+        }
+      ],
       "scripts" : [
         {
           "name" : "手动执行(填写ckName，保存，执行)",
           "script" : "https:\/\/raw.githubusercontent.com\/Sliverkiss\/GoodNight\/refs\/heads\/master\/Script\/surgeRecord.js"
         }
       ],
+      "author" : "@Sliverkiss",
       "name" : "Surge通用重放模块",
       "id" : "sliverkiss_surge"
     },
     {
+      "repo" : "",
       "keys" : [
         "nodeseek_default",
         "nodeseek_data"
       ],
-      "settings" : [
-        {
-          "id" : "nodeseek_default",
-          "val" : false,
-          "type" : "boolean",
-          "name" : "是否随机鸡腿",
-          "desc" : "默认关闭"
-        },
-        {
-          "name" : "会员数据",
-          "id" : "nodeseek_data",
-          "val" : "",
-          "type" : "textarea",
-          "autoGrow" : true,
-          "desc" : ""
-        }
-      ],
-      "repo" : "",
       "icons" : [
         "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/nodeseek.png",
         "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/nodeseek.png"
       ],
-      "author" : "@Sliverkiss",
-      "id" : "sliverkiss_nodeseek",
-      "name" : "NodeSeek社区签到"
-    },
-    {
-      "keys" : [
-        "mxbc_data"
-      ],
       "settings" : [
         {
-          "name" : "会员Cookie数据",
-          "id" : "mxbc_data",
-          "val" : "",
-          "type" : "textarea",
+          "desc" : "默认关闭",
+          "type" : "boolean",
+          "name" : "是否随机鸡腿",
+          "id" : "nodeseek_default",
+          "val" : false
+        },
+        {
           "autoGrow" : true,
-          "desc" : "会员Cookie数据"
+          "desc" : "",
+          "name" : "会员数据",
+          "id" : "nodeseek_data",
+          "type" : "textarea",
+          "val" : ""
         }
       ],
-      "repo" : "",
+      "author" : "@Sliverkiss",
+      "name" : "NodeSeek社区签到",
+      "id" : "sliverkiss_nodeseek"
+    },
+    {
       "icons" : [
         "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/mxbc.png",
         "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/mxbc.png"
       ],
-      "author" : "@Sliverkiss",
       "id" : "sliverkiss_mxbc",
-      "name" : "蜜雪冰城"
-    },
-    {
-      "id" : "sliverkiss_yuchenios",
-      "author" : "@Sliverkiss",
-      "keys" : [
-        "yuchenios_data"
-      ],
-      "name" : "雨晨ios",
       "settings" : [
         {
-          "name" : "会员Cookie数据",
-          "id" : "yuchenios_data",
-          "val" : "",
-          "type" : "textarea",
           "autoGrow" : true,
-          "desc" : "会员Cookie数据"
+          "desc" : "会员Cookie数据",
+          "name" : "会员Cookie数据",
+          "id" : "mxbc_data",
+          "type" : "textarea",
+          "val" : ""
         }
       ],
+      "repo" : "",
+      "name" : "蜜雪冰城",
+      "author" : "@Sliverkiss",
+      "keys" : [
+        "mxbc_data"
+      ]
+    },
+    {
       "icons" : [
         "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/yuchenios.png",
         "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/yuchenios.png"
       ],
-      "repo" : ""
+      "id" : "sliverkiss_yuchenios",
+      "settings" : [
+        {
+          "autoGrow" : true,
+          "desc" : "会员Cookie数据",
+          "name" : "会员Cookie数据",
+          "id" : "yuchenios_data",
+          "type" : "textarea",
+          "val" : ""
+        }
+      ],
+      "repo" : "",
+      "name" : "雨晨ios",
+      "author" : "@Sliverkiss",
+      "keys" : [
+        "yuchenios_data"
+      ]
     },
     {
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/wwwengshare\/BoxJs\/main\/pic\/TF.png",
+        "https:\/\/raw.githubusercontent.com\/wwwengshare\/BoxJs\/main\/pic\/TF.png"
+      ],
       "id" : "@A_TF",
+      "settings" : [
+        {
+          "desc" : "填入Key",
+          "type" : "textarea",
+          "rows" : 1,
+          "placeholder" : "Key",
+          "autoGrow" : true,
+          "name" : "Key",
+          "val" : "",
+          "id" : "@A_TF.Key"
+        },
+        {
+          "desc" : "填入Request_id",
+          "type" : "textarea",
+          "rows" : 1,
+          "placeholder" : "Request_id",
+          "autoGrow" : true,
+          "name" : "Request_id",
+          "val" : "",
+          "id" : "@A_TF.Request_id"
+        },
+        {
+          "desc" : "填入Session_digest",
+          "type" : "textarea",
+          "rows" : 1,
+          "placeholder" : "Session_digest",
+          "autoGrow" : true,
+          "name" : "Session_digest",
+          "val" : "",
+          "id" : "@A_TF.Session_digest"
+        },
+        {
+          "desc" : "填入Session_id",
+          "type" : "textarea",
+          "rows" : 1,
+          "placeholder" : "Session_id",
+          "autoGrow" : true,
+          "name" : "Session_id",
+          "val" : "",
+          "id" : "@A_TF.Session_id"
+        }
+      ],
+      "repo" : "https:\/\/github.com\/wwwengshare\/BoxJs",
+      "name" : "TestFlight",
       "author" : "@WWWeng🐝",
       "keys" : [
         "@A_TF.Key",
         "@A_TF.Request_id",
         "@A_TF.Session_digest",
         "@A_TF.Session_id"
-      ],
-      "name" : "TestFlight",
-      "settings" : [
-        {
-          "type" : "textarea",
-          "autoGrow" : true,
-          "val" : "",
-          "name" : "Key",
-          "placeholder" : "Key",
-          "rows" : 1,
-          "id" : "@A_TF.Key",
-          "desc" : "填入Key"
-        },
-        {
-          "type" : "textarea",
-          "autoGrow" : true,
-          "val" : "",
-          "name" : "Request_id",
-          "placeholder" : "Request_id",
-          "rows" : 1,
-          "id" : "@A_TF.Request_id",
-          "desc" : "填入Request_id"
-        },
-        {
-          "type" : "textarea",
-          "autoGrow" : true,
-          "val" : "",
-          "name" : "Session_digest",
-          "placeholder" : "Session_digest",
-          "rows" : 1,
-          "id" : "@A_TF.Session_digest",
-          "desc" : "填入Session_digest"
-        },
-        {
-          "type" : "textarea",
-          "autoGrow" : true,
-          "val" : "",
-          "name" : "Session_id",
-          "placeholder" : "Session_id",
-          "rows" : 1,
-          "id" : "@A_TF.Session_id",
-          "desc" : "填入Session_id"
-        }
-      ],
-      "icons" : [
-        "https:\/\/raw.githubusercontent.com\/wwwengshare\/BoxJs\/main\/pic\/TF.png",
-        "https:\/\/raw.githubusercontent.com\/wwwengshare\/BoxJs\/main\/pic\/TF.png"
-      ],
-      "repo" : "https:\/\/github.com\/wwwengshare\/BoxJs"
+      ]
     },
     {
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/58xinian\/icon\/master\/glados_mini.png",
+        "https:\/\/raw.githubusercontent.com\/58xinian\/icon\/master\/glados_animation.gif"
+      ],
       "id" : "A_Cloud",
-      "script" : "https:\/\/raw.githubusercontent.com\/vvveng\/All-In-Hide\/main\/JS\/Cloud_Checkin.js",
+      "settings" : [
+        {
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "标题",
+          "rows" : 1,
+          "val" : "",
+          "desc" : "请填入标题",
+          "id" : "@A_Cloud.checkintitle",
+          "placeholder" : "请填写，例如：CordCloud"
+        },
+        {
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "网址",
+          "rows" : 1,
+          "val" : "",
+          "desc" : "请填入网址",
+          "id" : "@A_Cloud.checkinurl",
+          "placeholder" : "请填写，例如：https:\/\/example.com"
+        },
+        {
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "邮箱",
+          "rows" : 1,
+          "val" : "",
+          "desc" : "请填入邮箱",
+          "id" : "@A_Cloud.checkinemail",
+          "placeholder" : "请填写，例如：example@v2bz.com"
+        },
+        {
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "密码",
+          "rows" : 1,
+          "val" : "",
+          "desc" : "请填入密码",
+          "id" : "@A_Cloud.checkinpwd",
+          "placeholder" : "请填写，例如：password"
+        }
+      ],
+      "repo" : "https:\/\/github.com\/wwwengshare\/BoxJs",
       "author" : "@WWWeng🐝",
+      "name" : "机场签到",
+      "script" : "https:\/\/raw.githubusercontent.com\/vvveng\/All-In-Hide\/main\/JS\/Cloud_Checkin.js",
+      "descs_html" : [
+        "点此直达【<a href=\"https:\/\/raw.githubusercontent.com\/vvveng\/All-In-Hide\/main\/JS\/Cloud_Checkin.js\">脚本地址<\/a>】"
+      ],
       "keys" : [
         "@A_Cloud.checkintitle",
         "@A_Cloud.checkinurl",
         "@A_Cloud.checkinemail",
         "@A_Cloud.checkinpwd"
-      ],
-      "name" : "机场签到",
-      "settings" : [
-        {
-          "val" : "",
-          "type" : "textarea",
-          "desc" : "请填入标题",
-          "name" : "标题",
-          "rows" : 1,
-          "id" : "@A_Cloud.checkintitle",
-          "autoGrow" : true,
-          "placeholder" : "请填写，例如：CordCloud"
-        },
-        {
-          "val" : "",
-          "type" : "textarea",
-          "desc" : "请填入网址",
-          "name" : "网址",
-          "rows" : 1,
-          "id" : "@A_Cloud.checkinurl",
-          "autoGrow" : true,
-          "placeholder" : "请填写，例如：https:\/\/example.com"
-        },
-        {
-          "val" : "",
-          "type" : "textarea",
-          "desc" : "请填入邮箱",
-          "name" : "邮箱",
-          "rows" : 1,
-          "id" : "@A_Cloud.checkinemail",
-          "autoGrow" : true,
-          "placeholder" : "请填写，例如：example@v2bz.com"
-        },
-        {
-          "val" : "",
-          "type" : "textarea",
-          "desc" : "请填入密码",
-          "name" : "密码",
-          "rows" : 1,
-          "id" : "@A_Cloud.checkinpwd",
-          "autoGrow" : true,
-          "placeholder" : "请填写，例如：password"
-        }
-      ],
-      "icons" : [
-        "https:\/\/raw.githubusercontent.com\/58xinian\/icon\/master\/glados_mini.png",
-        "https:\/\/raw.githubusercontent.com\/58xinian\/icon\/master\/glados_animation.gif"
-      ],
-      "repo" : "https:\/\/github.com\/wwwengshare\/BoxJs",
-      "descs_html" : [
-        "点此直达【<a href=\"https:\/\/raw.githubusercontent.com\/vvveng\/All-In-Hide\/main\/JS\/Cloud_Checkin.js\">脚本地址<\/a>】"
       ]
     },
     {
-      "id" : "@A_WuAi",
-      "author" : "@WWWeng🐝",
-      "keys" : [
-        "@A_WuAi.Cookie"
-      ],
-      "name" : "吾爱破解签到",
-      "settings" : [
-        {
-          "placeholder" : "USERID",
-          "val" : "",
-          "autoGrow" : true,
-          "name" : "吾爱破解Cookie",
-          "desc" : "填入吾爱破解Cookie",
-          "id" : "@A_WuAi.Cookie",
-          "type" : "textarea",
-          "rows" : 1
-        }
-      ],
       "icons" : [
         "https:\/\/raw.githubusercontent.com\/wwwengshare\/BoxJs\/main\/pic\/moji.png",
         "https:\/\/raw.githubusercontent.com\/wwwengshare\/BoxJs\/main\/pic\/wuai.png"
       ],
-      "repo" : "https:\/\/github.com\/wwwengshare\/BoxJs"
+      "id" : "@A_WuAi",
+      "settings" : [
+        {
+          "rows" : 1,
+          "id" : "@A_WuAi.Cookie",
+          "val" : "",
+          "name" : "吾爱破解Cookie",
+          "autoGrow" : true,
+          "placeholder" : "USERID",
+          "type" : "textarea",
+          "desc" : "填入吾爱破解Cookie"
+        }
+      ],
+      "repo" : "https:\/\/github.com\/wwwengshare\/BoxJs",
+      "name" : "吾爱破解签到",
+      "author" : "@WWWeng🐝",
+      "keys" : [
+        "@A_WuAi.Cookie"
+      ]
     },
     {
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/Yuheng0101\/X\/main\/Tasks\/imaotai\/mini.png",
+        "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Purple116\/v4\/ae\/f4\/18\/aef41811-955e-e6b0-5d23-6763c2eef1ab\/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png\/144x144.png"
+      ],
       "id" : "yuheng.imaotai",
-      "script" : "https:\/\/raw.githubusercontent.com\/Yuheng0101\/X\/main\/Tasks\/imaotai\/imaotai.js",
+      "settings" : [
+        {
+          "desc" : "不懂默认即可",
+          "type" : "boolean",
+          "name" : "是否清空店铺字段",
+          "id" : "imaotai__config__clearshopdir",
+          "val" : false
+        },
+        {
+          "desc" : "必填, 例如: 山东省",
+          "name" : "省份名称",
+          "type" : "text",
+          "rows" : 1,
+          "id" : "imaotai__config__province",
+          "val" : null
+        },
+        {
+          "desc" : "必填, 例如: 济南市",
+          "name" : "城市名称",
+          "type" : "text",
+          "rows" : 1,
+          "id" : "imaotai__config__city",
+          "val" : null
+        },
+        {
+          "desc" : "需要预约的项目{'10213': '贵州茅台酒（癸卯兔年）', '2478': '贵州茅台酒（珍品）','10214': '贵州茅台酒（癸卯兔年）x2','10056': '53%vol 500ml 茅台1935'}",
+          "name" : "预约项",
+          "type" : "text",
+          "rows" : 1,
+          "id" : "imaotai__config__itemcode",
+          "val" : "10213"
+        },
+        {
+          "desc" : "尽量具体, 比如: 山东省济南市齐鲁软件园, 精确到标志性建筑物",
+          "name" : "当前位置",
+          "type" : "text",
+          "rows" : 1,
+          "id" : "imaotai__config__address",
+          "val" : null
+        },
+        {
+          "desc" : "置空默认选择最近店铺",
+          "name" : "需要预约的店铺id",
+          "type" : "text",
+          "rows" : 1,
+          "id" : "imaotai__config__shopid",
+          "val" : null
+        }
+      ],
+      "repo" : "https:\/\/github.com\/Yuheng0101\/X",
       "author" : "@yuheng",
+      "name" : "i茅台预约",
+      "script" : "https:\/\/raw.githubusercontent.com\/Yuheng0101\/X\/main\/Tasks\/imaotai\/imaotai.js",
+      "descs_html" : [
+        "留空"
+      ],
       "keys" : [
         "imaotai__config__clearshopdir",
         "imaotai__config__province",
@@ -264,145 +321,212 @@
         "imaotai__config__itemcode",
         "imaotai__config__address",
         "imaotai__config__shopid"
-      ],
-      "name" : "i茅台预约",
-      "settings" : [
-        {
-          "id" : "imaotai__config__clearshopdir",
-          "val" : false,
-          "type" : "boolean",
-          "name" : "是否清空店铺字段",
-          "desc" : "不懂默认即可"
-        },
-        {
-          "id" : "imaotai__config__province",
-          "val" : null,
-          "rows" : 1,
-          "type" : "text",
-          "name" : "省份名称",
-          "desc" : "必填, 例如: 山东省"
-        },
-        {
-          "id" : "imaotai__config__city",
-          "val" : null,
-          "rows" : 1,
-          "type" : "text",
-          "name" : "城市名称",
-          "desc" : "必填, 例如: 济南市"
-        },
-        {
-          "id" : "imaotai__config__itemcode",
-          "val" : "10213",
-          "rows" : 1,
-          "type" : "text",
-          "name" : "预约项",
-          "desc" : "需要预约的项目{'10213': '贵州茅台酒（癸卯兔年）', '2478': '贵州茅台酒（珍品）','10214': '贵州茅台酒（癸卯兔年）x2','10056': '53%vol 500ml 茅台1935'}"
-        },
-        {
-          "id" : "imaotai__config__address",
-          "val" : null,
-          "rows" : 1,
-          "type" : "text",
-          "name" : "当前位置",
-          "desc" : "尽量具体, 比如: 山东省济南市齐鲁软件园, 精确到标志性建筑物"
-        },
-        {
-          "id" : "imaotai__config__shopid",
-          "val" : null,
-          "rows" : 1,
-          "type" : "text",
-          "name" : "需要预约的店铺id",
-          "desc" : "置空默认选择最近店铺"
-        }
-      ],
-      "icons" : [
-        "https:\/\/raw.githubusercontent.com\/Yuheng0101\/X\/main\/Tasks\/imaotai\/mini.png",
-        "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Purple116\/v4\/ae\/f4\/18\/aef41811-955e-e6b0-5d23-6763c2eef1ab\/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png\/144x144.png"
-      ],
-      "repo" : "https:\/\/github.com\/Yuheng0101\/X",
-      "descs_html" : [
-        "留空"
       ]
     },
     {
-      "id" : "sliverkiss_surge",
-      "author" : "@Sliverkiss",
-      "keys" : [
-        "sliverkiss_surge_retry",
-        "@sliverkiss.record"
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/Former-Years\/icon\/master\/github-bf.png",
+        "https:\/\/raw.githubusercontent.com\/Former-Years\/icon\/master\/github-bf.png"
       ],
-      "name" : "Surge通用重放模块",
+      "id" : "gistBackup",
       "settings" : [
         {
-          "desc" : "填入需要运行重放模块的ckName",
-          "id" : "sliverkiss_surge_retry",
-          "val" : "",
+          "desc" : "值为数字，拆分段数比如 2 就拆分成两个 datas.",
+          "type" : "number",
+          "name" : "用户数据分段",
+          "placeholder" : "用户数据过大时，请进行拆分防止内存警告⚠️",
+          "id" : "@gist.split",
+          "val" : null
+        },
+        {
+          "desc" : "不填写时，默认获取最新，恢复后会自动清空。选择无内容时，请运行上方更新历史版本",
+          "type" : "modalSelects",
+          "name" : "历史版本RevisionId",
+          "id" : "@gist.revision_id",
+          "items" : "@gist.revision_options"
+        },
+        {
+          "val" : "usercfgs,datas,sessions,curSessions,backups,appSubCaches",
+          "type" : "checkboxes",
+          "name" : "备份\/恢复内容",
+          "id" : "@gist.backup_type",
+          "items" : [
+            {
+              "label" : "用户偏好",
+              "key" : "usercfgs"
+            },
+            {
+              "label" : "用户数据",
+              "key" : "datas"
+            },
+            {
+              "label" : "应用会话",
+              "key" : "sessions"
+            },
+            {
+              "label" : "当前会话",
+              "key" : "curSessions"
+            },
+            {
+              "label" : "备份索引",
+              "key" : "backups"
+            },
+            {
+              "label" : "应用订阅缓存",
+              "key" : "appSubCaches"
+            }
+          ]
+        },
+        {
+          "desc" : "必填",
           "type" : "text",
-          "name" : "ckName",
-          "autoGrow" : true
+          "name" : "用户名",
+          "placeholder" : "github 用户名",
+          "id" : "@gist.username",
+          "val" : null
+        },
+        {
+          "desc" : "必填",
+          "type" : "text",
+          "name" : "Personal access tokens",
+          "placeholder" : "github personal access tokens",
+          "id" : "@gist.token",
+          "val" : null
         }
-      ],
-      "icons" : [
-        "https:\/\/raw.githubusercontent.com\/githubdulong\/Script\/master\/Images\/Surge_logo.png",
-        "https:\/\/raw.githubusercontent.com\/githubdulong\/Script\/master\/Images\/Surge_logo.png"
       ],
       "scripts" : [
         {
-          "name" : "手动执行(填写ckName，保存，执行)",
-          "script" : "https:\/\/raw.githubusercontent.com\/Sliverkiss\/GoodNight\/refs\/heads\/master\/Script\/surgeRecord.js"
+          "name" : "备份 Gist",
+          "script" : "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/gist\/backup.js"
+        },
+        {
+          "name" : "恢复 Gist",
+          "script" : "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/gist\/restore.js"
+        },
+        {
+          "name" : "更新历史版本",
+          "script" : "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/gist\/commit.js"
         }
       ],
-      "repo" : ""
+      "name" : "Gist备份",
+      "author" : "@dompling",
+      "keys" : [
+        "@gist.token",
+        "@gist.username",
+        "@gist.split",
+        "@gist.revision_options",
+        "@gist.backup_type",
+        "@gist.backup_black_apps",
+        "@gist.backup_white_apps"
+      ],
+      "descs_html" : [
+        "<h4>Token的获取方式<\/h4>",
+        "<ol>头像菜单 -><\/ol>",
+        "<ol>Settings -><\/ol>",
+        "<ol>Developer settings -><\/ol>",
+        "<ol>Personal access tokens -><\/ol>",
+        "<ol>Generate new token -><\/ol>",
+        "<ol>在里面找到 gist 勾选提交<\/ol>",
+        "<h4>Gist Revision Id<\/h4>",
+        "<ol>打开Gist项目<\/ol>",
+        "<ol>默认为Code，选择Revisions<\/ol>",
+        "<ol>找到需要恢复的版本文件<\/ol>",
+        "<ol>点击右上角【...】>【View file】<\/ol>",
+        "<ol>浏览器地址最后一串为 RevisionId<\/ol>",
+        "<a href=\"\/app\/GistBackupBlackApp\" style=\"display: block;width: 100%;font-size: 20px;text-align: center;background: #1890ff;color: #fff;border-radius: 4px;overflow: hidden;text-decoration: none;padding: 5px;box-sizing: border-box;margin:10px 0\">Gist 数据黑名单<\/a>",
+        "<a href=\"\/app\/GistBackupWhiteApp\" style=\"display: block;width: 100%;font-size: 20px;text-align: center;background: #1890ff;color: #fff;border-radius: 4px;overflow: hidden;text-decoration: none;padding: 5px;box-sizing: border-box;\">Gist 数据白名单<\/a>"
+      ]
     },
     {
-      "id" : "sliverkiss_mxbc",
-      "author" : "@Sliverkiss",
-      "keys" : [
-        "mxbc_data"
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/icon\/github-black.jpg",
+        "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/icon\/github-black.jpg"
       ],
-      "name" : "蜜雪冰城",
+      "id" : "GistBackupBlackApp",
       "settings" : [
         {
-          "desc" : "会员Cookie数据",
-          "id" : "mxbc_data",
-          "val" : "",
           "type" : "textarea",
-          "name" : "会员Cookie数据",
-          "autoGrow" : true
+          "placeholder" : "请运行【刷新APP】",
+          "name" : "请运行【刷新APP】,刷新后再刷新当前页面",
+          "id" : "@gist.backup_black_apps",
+          "desc" : "除黑名单相关 APP 的 Key 到用户数据，无选择内容时，请运行【刷新APP】",
+          "val" : ""
         }
       ],
-      "icons" : [
-        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/mxbc.png",
-        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/mxbc.png"
+      "scripts" : [
+        {
+          "name" : "备份 Gist (除黑名单)",
+          "script" : "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/gist\/backup.js"
+        },
+        {
+          "name" : "恢复 Gist (除黑名单)",
+          "script" : "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/gist\/restore.js"
+        },
+        {
+          "name" : "刷新APP",
+          "script" : "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/gist\/refreshApps.js"
+        }
       ],
-      "repo" : ""
+      "name" : "数据黑名",
+      "author" : "@dompling",
+      "keys" : [
+        "@gist.backup_black_apps"
+      ],
+      "descs_html" : [
+        "<h4>【同步提示】<\/h4>",
+        "<p style=\"color:red\">白名单中，仅备份包含的 app(优先于黑名单)<\/p>",
+        "黑名单中包含的 app 会跳过备份和恢复",
+        "<a href=\"\/app\/gistBackup\" style=\"display: block;width: 100%;font-size: 20px;text-align: center;background: #1890ff;color: #fff;border-radius: 4px;overflow: hidden;text-decoration: none;padding: 5px;box-sizing: border-box;margin:10px 0\">Gist 配置<\/a>",
+        "<a href=\"\/app\/GistBackupWhiteApp\" style=\"display: block;width: 100%;font-size: 20px;text-align: center;background: #1890ff;color: #fff;border-radius: 4px;overflow: hidden;text-decoration: none;padding: 5px;box-sizing: border-box;\">Gist 数据白名单<\/a>"
+      ]
     },
     {
-      "id" : "sliverkiss_yuchenios",
-      "author" : "@Sliverkiss",
-      "keys" : [
-        "yuchenios_data"
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/icon\/github-white.jpg",
+        "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/icon\/github-white.jpg"
       ],
-      "name" : "雨晨ios",
+      "id" : "GistBackupWhiteApp",
       "settings" : [
         {
-          "desc" : "会员Cookie数据",
-          "id" : "yuchenios_data",
-          "val" : "",
           "type" : "textarea",
-          "name" : "会员Cookie数据",
-          "autoGrow" : true
+          "placeholder" : "请运行【刷新APP】",
+          "name" : "请运行【刷新APP】,刷新后再刷新当前页面",
+          "id" : "@gist.backup_white_apps",
+          "desc" : "白名单相关 APP 的 Key 到用户数据，无选择内容时，请运行【刷新APP】",
+          "val" : ""
         }
       ],
-      "icons" : [
-        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/yuchenios.png",
-        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/yuchenios.png"
+      "scripts" : [
+        {
+          "name" : "备份 Gist (仅备份白名单)",
+          "script" : "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/gist\/backup.js"
+        },
+        {
+          "name" : "恢复 Gist (仅恢复白名单)",
+          "script" : "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/gist\/restore.js"
+        },
+        {
+          "name" : "刷新APP",
+          "script" : "https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/gist\/refreshApps.js"
+        }
       ],
-      "repo" : ""
+      "name" : "数据白名",
+      "author" : "@dompling",
+      "keys" : [
+        "@gist.backup_white_apps"
+      ],
+      "descs_html" : [
+        "<h4>【同步提示】<\/h4>",
+        "<p style=\"color:red\">白名单中，仅备份包含的 app(优先于黑名单)<\/p>",
+        "黑名单中包含的 app 会跳过备份和恢复",
+        "<a href=\"\/app\/gistBackup\" style=\"display: block;width: 100%;font-size: 20px;text-align: center;background: #1890ff;color: #fff;border-radius: 4px;overflow: hidden;text-decoration: none;padding: 5px;box-sizing: border-box;margin:10px 0\">Gist 配置<\/a>",
+        "<a href=\"\/app\/GistBackupBlackApp\" style=\"display: block;width: 100%;font-size: 20px;text-align: center;background: #1890ff;color: #fff;border-radius: 4px;overflow: hidden;text-decoration: none;padding: 5px;box-sizing: border-box;\">Gist 数据白名单<\/a>"
+      ]
     }
   ],
+  "icon" : "https:\/\/raw.githubusercontent.com\/wwwengshare\/ShareFiles\/main\/BoxJs\/Pic\/wwweng.png",
   "repo" : "https:\/\/github.com\/wwwengshare\/BoxJs",
-  "id" : "WWWeng.app.sub",
   "name" : "嗡嗡嗡的应用订阅",
+  "id" : "WWWeng.app.sub",
   "author" : "@WWWeng🐝"
 }
