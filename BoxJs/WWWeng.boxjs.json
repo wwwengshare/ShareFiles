@@ -1,76 +1,408 @@
 {
-  "id" : "vvveng.app.sub",
-  "author" : "@WWWeng🐝",
-  "icon" : "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/wwweng.png",
-  "name" : "嗡嗡嗡的应用订阅",
-  "repo" : "https:\/\/raw.githubusercontent.com\/zqzess\/rule_for_quantumultX\/master\/js\/Mine\/boxjs.json",
+  "icon" : "https:\/\/raw.githubusercontent.com\/wwwengshare\/ShareFiles\/main\/BoxJs\/Pic\/wwweng.png",
   "apps" : [
     {
-      "author" : "@FoKit",
-      "script" : "https:\/\/raw.githubusercontent.com\/FoKit\/Scripts\/main\/scripts\/jhsh_checkIn.js",
       "keys" : [
-        "JHSH_GIFT",
-        "JHSH_BODY",
-        "JHSH_LOGIN_INFO",
-        "JHSH_VERSION"
-      ],
-      "id" : "jhsh",
-      "descs_html" : [
-        ""
+        "sliverkiss_surge_retry",
+        "@sliverkiss.record"
       ],
       "settings" : [
         {
-          "desc" : "选择连续签到奖励类型",
-          "id" : "JHSH_GIFT",
-          "val" : "2",
-          "type" : "radios",
-          "items" : [
-            {
-              "key" : "1",
-              "label" : "打车券"
-            },
-            {
-              "key" : "2",
-              "label" : "外卖券"
-            },
-            {
-              "key" : "3",
-              "label" : "骑行券"
-            }
-          ],
-          "name" : "奖励类型"
-        },
-        {
-          "id" : "JHSH_BODY",
+          "name" : "ckName",
+          "id" : "sliverkiss_surge_retry",
           "val" : "",
-          "rows" : 1,
-          "autoGrow" : true,
-          "type" : "textarea",
-          "name" : "签到数据",
-          "desc" : ""
-        },
-        {
-          "id" : "JHSH_LOGIN_INFO",
-          "val" : "",
-          "rows" : 1,
-          "autoGrow" : true,
-          "type" : "textarea",
-          "name" : "登录数据",
-          "desc" : ""
-        },
-        {
-          "id" : "JHSH_VERSION",
-          "val" : "",
-          "name" : "版本号",
           "type" : "text",
+          "autoGrow" : true,
+          "desc" : "填入需要运行重放模块的ckName"
+        }
+      ],
+      "author" : "@Sliverkiss",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/githubdulong\/Script\/master\/Images\/Surge_logo.png",
+        "https:\/\/raw.githubusercontent.com\/githubdulong\/Script\/master\/Images\/Surge_logo.png"
+      ],
+      "repo" : "",
+      "scripts" : [
+        {
+          "name" : "手动执行(填写ckName，保存，执行)",
+          "script" : "https:\/\/raw.githubusercontent.com\/Sliverkiss\/GoodNight\/refs\/heads\/master\/Script\/surgeRecord.js"
+        }
+      ],
+      "name" : "Surge通用重放模块",
+      "id" : "sliverkiss_surge"
+    },
+    {
+      "keys" : [
+        "nodeseek_default",
+        "nodeseek_data"
+      ],
+      "settings" : [
+        {
+          "id" : "nodeseek_default",
+          "val" : false,
+          "type" : "boolean",
+          "name" : "是否随机鸡腿",
+          "desc" : "默认关闭"
+        },
+        {
+          "name" : "会员数据",
+          "id" : "nodeseek_data",
+          "val" : "",
+          "type" : "textarea",
+          "autoGrow" : true,
           "desc" : ""
         }
       ],
-      "name" : "建行生活",
+      "repo" : "",
       "icons" : [
-        "https:\/\/raw.githubusercontent.com\/FoKit\/Scripts\/main\/images\/jhsh.png",
-        "https:\/\/raw.githubusercontent.com\/FoKit\/Scripts\/main\/images\/jhsh.png"
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/nodeseek.png",
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/nodeseek.png"
+      ],
+      "author" : "@Sliverkiss",
+      "id" : "sliverkiss_nodeseek",
+      "name" : "NodeSeek社区签到"
+    },
+    {
+      "keys" : [
+        "mxbc_data"
+      ],
+      "settings" : [
+        {
+          "name" : "会员Cookie数据",
+          "id" : "mxbc_data",
+          "val" : "",
+          "type" : "textarea",
+          "autoGrow" : true,
+          "desc" : "会员Cookie数据"
+        }
+      ],
+      "repo" : "",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/mxbc.png",
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/mxbc.png"
+      ],
+      "author" : "@Sliverkiss",
+      "id" : "sliverkiss_mxbc",
+      "name" : "蜜雪冰城"
+    },
+    {
+      "id" : "sliverkiss_yuchenios",
+      "author" : "@Sliverkiss",
+      "keys" : [
+        "yuchenios_data"
+      ],
+      "name" : "雨晨ios",
+      "settings" : [
+        {
+          "name" : "会员Cookie数据",
+          "id" : "yuchenios_data",
+          "val" : "",
+          "type" : "textarea",
+          "autoGrow" : true,
+          "desc" : "会员Cookie数据"
+        }
+      ],
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/yuchenios.png",
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/yuchenios.png"
+      ],
+      "repo" : ""
+    },
+    {
+      "id" : "@A_TF",
+      "author" : "@WWWeng🐝",
+      "keys" : [
+        "@A_TF.Key",
+        "@A_TF.Request_id",
+        "@A_TF.Session_digest",
+        "@A_TF.Session_id"
+      ],
+      "name" : "TestFlight",
+      "settings" : [
+        {
+          "type" : "textarea",
+          "autoGrow" : true,
+          "val" : "",
+          "name" : "Key",
+          "placeholder" : "Key",
+          "rows" : 1,
+          "id" : "@A_TF.Key",
+          "desc" : "填入Key"
+        },
+        {
+          "type" : "textarea",
+          "autoGrow" : true,
+          "val" : "",
+          "name" : "Request_id",
+          "placeholder" : "Request_id",
+          "rows" : 1,
+          "id" : "@A_TF.Request_id",
+          "desc" : "填入Request_id"
+        },
+        {
+          "type" : "textarea",
+          "autoGrow" : true,
+          "val" : "",
+          "name" : "Session_digest",
+          "placeholder" : "Session_digest",
+          "rows" : 1,
+          "id" : "@A_TF.Session_digest",
+          "desc" : "填入Session_digest"
+        },
+        {
+          "type" : "textarea",
+          "autoGrow" : true,
+          "val" : "",
+          "name" : "Session_id",
+          "placeholder" : "Session_id",
+          "rows" : 1,
+          "id" : "@A_TF.Session_id",
+          "desc" : "填入Session_id"
+        }
+      ],
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/wwwengshare\/BoxJs\/main\/pic\/TF.png",
+        "https:\/\/raw.githubusercontent.com\/wwwengshare\/BoxJs\/main\/pic\/TF.png"
+      ],
+      "repo" : "https:\/\/github.com\/wwwengshare\/BoxJs"
+    },
+    {
+      "id" : "A_Cloud",
+      "script" : "https:\/\/raw.githubusercontent.com\/vvveng\/All-In-Hide\/main\/JS\/Cloud_Checkin.js",
+      "author" : "@WWWeng🐝",
+      "keys" : [
+        "@A_Cloud.checkintitle",
+        "@A_Cloud.checkinurl",
+        "@A_Cloud.checkinemail",
+        "@A_Cloud.checkinpwd"
+      ],
+      "name" : "机场签到",
+      "settings" : [
+        {
+          "val" : "",
+          "type" : "textarea",
+          "desc" : "请填入标题",
+          "name" : "标题",
+          "rows" : 1,
+          "id" : "@A_Cloud.checkintitle",
+          "autoGrow" : true,
+          "placeholder" : "请填写，例如：CordCloud"
+        },
+        {
+          "val" : "",
+          "type" : "textarea",
+          "desc" : "请填入网址",
+          "name" : "网址",
+          "rows" : 1,
+          "id" : "@A_Cloud.checkinurl",
+          "autoGrow" : true,
+          "placeholder" : "请填写，例如：https:\/\/example.com"
+        },
+        {
+          "val" : "",
+          "type" : "textarea",
+          "desc" : "请填入邮箱",
+          "name" : "邮箱",
+          "rows" : 1,
+          "id" : "@A_Cloud.checkinemail",
+          "autoGrow" : true,
+          "placeholder" : "请填写，例如：example@v2bz.com"
+        },
+        {
+          "val" : "",
+          "type" : "textarea",
+          "desc" : "请填入密码",
+          "name" : "密码",
+          "rows" : 1,
+          "id" : "@A_Cloud.checkinpwd",
+          "autoGrow" : true,
+          "placeholder" : "请填写，例如：password"
+        }
+      ],
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/58xinian\/icon\/master\/glados_mini.png",
+        "https:\/\/raw.githubusercontent.com\/58xinian\/icon\/master\/glados_animation.gif"
+      ],
+      "repo" : "https:\/\/github.com\/wwwengshare\/BoxJs",
+      "descs_html" : [
+        "点此直达【<a href=\"https:\/\/raw.githubusercontent.com\/vvveng\/All-In-Hide\/main\/JS\/Cloud_Checkin.js\">脚本地址<\/a>】"
       ]
+    },
+    {
+      "id" : "@A_WuAi",
+      "author" : "@WWWeng🐝",
+      "keys" : [
+        "@A_WuAi.Cookie"
+      ],
+      "name" : "吾爱破解签到",
+      "settings" : [
+        {
+          "placeholder" : "USERID",
+          "val" : "",
+          "autoGrow" : true,
+          "name" : "吾爱破解Cookie",
+          "desc" : "填入吾爱破解Cookie",
+          "id" : "@A_WuAi.Cookie",
+          "type" : "textarea",
+          "rows" : 1
+        }
+      ],
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/wwwengshare\/BoxJs\/main\/pic\/moji.png",
+        "https:\/\/raw.githubusercontent.com\/wwwengshare\/BoxJs\/main\/pic\/wuai.png"
+      ],
+      "repo" : "https:\/\/github.com\/wwwengshare\/BoxJs"
+    },
+    {
+      "id" : "yuheng.imaotai",
+      "script" : "https:\/\/raw.githubusercontent.com\/Yuheng0101\/X\/main\/Tasks\/imaotai\/imaotai.js",
+      "author" : "@yuheng",
+      "keys" : [
+        "imaotai__config__clearshopdir",
+        "imaotai__config__province",
+        "imaotai__config__city",
+        "imaotai__config__itemcode",
+        "imaotai__config__address",
+        "imaotai__config__shopid"
+      ],
+      "name" : "i茅台预约",
+      "settings" : [
+        {
+          "id" : "imaotai__config__clearshopdir",
+          "val" : false,
+          "type" : "boolean",
+          "name" : "是否清空店铺字段",
+          "desc" : "不懂默认即可"
+        },
+        {
+          "id" : "imaotai__config__province",
+          "val" : null,
+          "rows" : 1,
+          "type" : "text",
+          "name" : "省份名称",
+          "desc" : "必填, 例如: 山东省"
+        },
+        {
+          "id" : "imaotai__config__city",
+          "val" : null,
+          "rows" : 1,
+          "type" : "text",
+          "name" : "城市名称",
+          "desc" : "必填, 例如: 济南市"
+        },
+        {
+          "id" : "imaotai__config__itemcode",
+          "val" : "10213",
+          "rows" : 1,
+          "type" : "text",
+          "name" : "预约项",
+          "desc" : "需要预约的项目{'10213': '贵州茅台酒（癸卯兔年）', '2478': '贵州茅台酒（珍品）','10214': '贵州茅台酒（癸卯兔年）x2','10056': '53%vol 500ml 茅台1935'}"
+        },
+        {
+          "id" : "imaotai__config__address",
+          "val" : null,
+          "rows" : 1,
+          "type" : "text",
+          "name" : "当前位置",
+          "desc" : "尽量具体, 比如: 山东省济南市齐鲁软件园, 精确到标志性建筑物"
+        },
+        {
+          "id" : "imaotai__config__shopid",
+          "val" : null,
+          "rows" : 1,
+          "type" : "text",
+          "name" : "需要预约的店铺id",
+          "desc" : "置空默认选择最近店铺"
+        }
+      ],
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/Yuheng0101\/X\/main\/Tasks\/imaotai\/mini.png",
+        "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Purple116\/v4\/ae\/f4\/18\/aef41811-955e-e6b0-5d23-6763c2eef1ab\/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png\/144x144.png"
+      ],
+      "repo" : "https:\/\/github.com\/Yuheng0101\/X",
+      "descs_html" : [
+        "留空"
+      ]
+    },
+    {
+      "id" : "sliverkiss_surge",
+      "author" : "@Sliverkiss",
+      "keys" : [
+        "sliverkiss_surge_retry",
+        "@sliverkiss.record"
+      ],
+      "name" : "Surge通用重放模块",
+      "settings" : [
+        {
+          "desc" : "填入需要运行重放模块的ckName",
+          "id" : "sliverkiss_surge_retry",
+          "val" : "",
+          "type" : "text",
+          "name" : "ckName",
+          "autoGrow" : true
+        }
+      ],
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/githubdulong\/Script\/master\/Images\/Surge_logo.png",
+        "https:\/\/raw.githubusercontent.com\/githubdulong\/Script\/master\/Images\/Surge_logo.png"
+      ],
+      "scripts" : [
+        {
+          "name" : "手动执行(填写ckName，保存，执行)",
+          "script" : "https:\/\/raw.githubusercontent.com\/Sliverkiss\/GoodNight\/refs\/heads\/master\/Script\/surgeRecord.js"
+        }
+      ],
+      "repo" : ""
+    },
+    {
+      "id" : "sliverkiss_mxbc",
+      "author" : "@Sliverkiss",
+      "keys" : [
+        "mxbc_data"
+      ],
+      "name" : "蜜雪冰城",
+      "settings" : [
+        {
+          "desc" : "会员Cookie数据",
+          "id" : "mxbc_data",
+          "val" : "",
+          "type" : "textarea",
+          "name" : "会员Cookie数据",
+          "autoGrow" : true
+        }
+      ],
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/mxbc.png",
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/mxbc.png"
+      ],
+      "repo" : ""
+    },
+    {
+      "id" : "sliverkiss_yuchenios",
+      "author" : "@Sliverkiss",
+      "keys" : [
+        "yuchenios_data"
+      ],
+      "name" : "雨晨ios",
+      "settings" : [
+        {
+          "desc" : "会员Cookie数据",
+          "id" : "yuchenios_data",
+          "val" : "",
+          "type" : "textarea",
+          "name" : "会员Cookie数据",
+          "autoGrow" : true
+        }
+      ],
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/yuchenios.png",
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/yuchenios.png"
+      ],
+      "repo" : ""
     }
-  ]
+  ],
+  "repo" : "https:\/\/github.com\/wwwengshare\/BoxJs",
+  "id" : "WWWeng.app.sub",
+  "name" : "嗡嗡嗡的应用订阅",
+  "author" : "@WWWeng🐝"
 }
