@@ -1,0 +1,31 @@
+#!name=talkatone分流
+#!desc=talkatone分流
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1053.png
+#!tag=分流
+#!arguments-desc=分流策略组内自行填入你的talkatone需要走的美区代理策略名
+
+[Argument]
+分流策略组=input,𝙐𝙎,tag=分流策略组, desc=分流策略组
+
+[Rule]
+# 核心域名直连或走代理
+DOMAIN-SUFFIX,talkatone.com,{分流策略组}
+DOMAIN-SUFFIX,tktn.be,{分流策略组}
+DOMAIN-SUFFIX,kochava.com,{分流策略组}
+DOMAIN-SUFFIX,cohere.com,{分流策略组}
+DOMAIN-SUFFIX,agkn.com,{分流策略组}
+DOMAIN-SUFFIX,tktn.at,{分流策略组}
+#DOMAIN-SUFFIX,ip-api.com,{分流策略组}
+# IP段（可选，视节点情况）
+IP-CIDR,50.117.27.0/24,{分流策略组},no-resolve
+IP-CIDR,69.46.75.0/24,{分流策略组},no-resolve
+IP-CIDR,205.164.56.0/24,{分流策略组},no-resolve
+IP-CIDR,63.251.124.0/24,{分流策略组},no-resolve
+# 广告屏蔽（可选）
+DOMAIN-SUFFIX,ads.inmobi.com,REJECT
+DOMAIN-SUFFIX,tappx.com,REJECT
+DOMAIN-SUFFIX,criteo.com,REJECT
+DOMAIN-SUFFIX,pubmatic.com,REJECT
+DOMAIN-SUFFIX,smaato.net,REJECT
+DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+DOMAIN-KEYWORD,googleads,REJECT
